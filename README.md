@@ -1,2 +1,4 @@
 # Exercício - Lista de Tarefas
-Realizado por: Hallan Fernandes de Melo, Rodolfo Ferreira Sapateiro e Ryan Tonon.
+Exercício onde tem como propósito criar uma aplicação web, para simular um gerenciador de tarefas do cotidiano.
+
+Incluindo tarefas a ser feita e sua respectiva data. Após a inclusão das tarefas, podemos editar a tarefa, excluir a tarefa, e marcar a mesma e também tem a opção de excluir toda lista, clicando no botão limpar lista
