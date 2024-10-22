@@ -46,7 +46,7 @@ function addElemento() {
     let checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.className = "task-checkbox";
-    li.insertBefore(checkbox, t); // Insere o checkbox antes do texto
+    li.insertBefore(checkbox, t); 
 
     document.getElementById("itemLista").appendChild(li);
 
@@ -58,7 +58,7 @@ function addElemento() {
 
 function addCloseAndEditButtons(li) {
     let closeBtn = document.createElement("span");
-    let closeTxt = document.createTextNode("\u00D7"); // Cria o texto "×"
+    let closeTxt = document.createTextNode("\u00D7"); 
     closeBtn.className = "close";
     closeBtn.appendChild(closeTxt);
     closeBtn.onclick = function() {
@@ -68,7 +68,7 @@ function addCloseAndEditButtons(li) {
     li.appendChild(closeBtn);
     
     let editBtn = document.createElement("span");
-    let editTxt = document.createTextNode("\u270E"); // Cria o texto "✎" (lápis)
+    let editTxt = document.createTextNode("\u270E"); 
     editBtn.className = "edit";
     editBtn.appendChild(editTxt);
     li.appendChild(editBtn);
